@@ -13,7 +13,11 @@ Un repositorio con todos los playground del PlatziChallenge en Marzo 2023. El ob
 * Día 1:
   - [Playground 1: Retorna el tipo](#retorna-el-tipo)
 * Día 2:
-  - [Calcula la propina](#calcula-la-propina)
+  - [Playground 2: Calcula la propina](#calcula-la-propina)
+* Día 3:
+  - [Calcula años bisiestos](#calcula-años-bisiestos)
+
+
 
 1. ## [Retorna el tipo](#retorna-el-tipo)
 > ### Día: 1
@@ -54,6 +58,7 @@ Debes obtener los siguientes resultados:
 #### [Volver al Índice :arrow_up:](#tabla-de-contenidos)
 
 
+
 2. ## [Calcula la propina](#calcula-la-propina)
 > ### Día: 2
 ```
@@ -90,4 +95,49 @@ Output: 381.0825;
 > 1. **Operadores: aritméticos, lógicos, de asignación y de comparación**
 
 ### [Archivo con respuesta: 2-calcula_propina.js](2-calcula_propina.js)
+#### [Volver al Índice :arrow_up:](#tabla-de-contenidos)
+
+
+
+3. ## [Calcula años bisiestos](#calcula-años-bisiestos)
+> ### Día: 3
+```
+function isLeapYear(year) {
+  // Tu código aquí 👈
+}
+```
+> ### Consigna:
+
+En este desafío, debes crear la lógica de la función `isLeapYear`, que determina si un año es bisiesto o no. Un año es bisiesto si cumple con las siguientes condiciones:
+
+* Es divisible por 4, pero no por 100.
+O
+* Es divisible por 100 y por 400.
+
+La función `isLeapYear` recibe un único parámetro: el año a evaluar. Debe devolver `true` si el año es bisiesto o `false` en caso contrario.
+
+Toma en cuenta que la función debe ser capaz de manejar valores no enteros o negativos. 
+
+Ejemplo 1:
+```
+Input: 2000;
+Output: true;
+```
+
+Ejemplo 2:
+```
+Input: -2024;
+Output: false;
+```
+
+Ejemplo 3:
+```
+Input: 1984.25;
+Output: false;
+```
+
+### Temas previos:
+> 1. **Condicional IF-ELSE**
+
+### [Archivo con respuesta: 3-anio_bisiesto.js](3-anio_bisiesto.js)
 #### [Volver al Índice :arrow_up:](#tabla-de-contenidos)
