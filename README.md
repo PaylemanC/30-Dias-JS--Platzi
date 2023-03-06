@@ -13,7 +13,7 @@ Un repositorio con todos los playground del PlatziChallenge en Marzo 2023. Las a
 * Día 1:
   - [Playground 1: Retorna el tipo](#retorna-el-tipo)
 * Día 2:
-  - []()
+  - [Calcula la propina](#calcula-la-propina)
 
 1. ## [Retorna el tipo](#retorna-el-tipo)
 > ### Día: 1
@@ -51,4 +51,43 @@ Debes obtener los siguientes resultados:
 > 6. **typeof**
 
 ### [Archivo con respuesta: 1-retorna_tipo.js](1-retorna_tipo.js)
+#### [Volver al Índice :arrow_up:](#tabla-de-contenidos)
+
+
+2. ## [Calcula la propina](#calcula-la-propina)
+> ### Día: 2
+```
+function calculateTip(billAmount, tipPercentage) {
+  // Tu código aquí 👈
+}
+```
+> ### Consigna:
+
+En este desafío tendrás que calcular la propina que deben dejar los clientes de un restaurante en función de su consumo.
+
+Recibirás 2 parámetros:
+* billAmount: El costo total de lo que hayan consumido.
+* tipPercentage: El porcentaje de propina que deban dejar.
+* Ambos valores serán de tipo `Number`.
+* Los valores serán siempre positivos incluyendo el 0.
+* deberá devolver el valor de la propina como un número.
+
+Tendrás inputs y outputs como los siguientes 👇
+
+Ejemplo 1:
+```
+Input: calculateTip(100, 10);
+Output: 10;
+```
+
+Ejemplo 2:
+```
+Input: calculateTip(1524.33, 25);
+Output: 381.0825;
+```
+
+### Temas previos:
+> 1. **Operadores: aritméticos, lógicos, de asignación y de comparación**
+
+### [Archivo con respuesta: 2-calcula_propina.js](2-calcula_propina.js)
 #### [Volver al Índice :arrow_up:](#tabla-de-contenidos)
