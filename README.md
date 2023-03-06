@@ -15,7 +15,8 @@ Un repositorio con todos los playground del PlatziChallenge en Marzo 2023. El ob
 * Día 2:
   - [Playground 2: Calcula la propina](#calcula-la-propina)
 * Día 3:
-  - [Calcula años bisiestos](#calcula-años-bisiestos)
+  - [Playground 3: Calcula años bisiestos](#calcula-años-bisiestos)
+  - [Playground 4: Ejercicio de mascotas](#ejercicio-de-mascotas)
 
 
 
@@ -140,4 +141,71 @@ Output: false;
 > 1. **Condicional IF-ELSE**
 
 ### [Archivo con respuesta: 3-anio_bisiesto.js](3-anio_bisiesto.js)
+#### [Volver al Índice :arrow_up:](#tabla-de-contenidos)
+
+
+
+4. ## [Ejercicio de mascotas](#ejercicio-de-mascotas)
+> ### Día: 3
+```
+function getPetExerciseInfo(type, age) {
+  // Tu Código aquí 👈
+}
+```
+> ### Consigna:
+
+En este desafío recibirás una serie de tipos de mascotas junto con su edad.
+
+Dependiendo de estos 2 factores tendrás que construir la función llamada `getPetExerciseInfo` la cual retornará una cadena de texto con la información necesaria acerca de cuanto ejercicio necesita hacer cada tipo de mascota.
+
+La función recibirá las siguientes mascotas:
+
+* perro
+* gato
+* ave
+
+En caso de pasar una mascota la cual no sea de la lista deberá retornar "Tipo de mascota inválida"
+
+Para cada tipo de mascota, la función retornará diferente información basada en la edad.
+
+* perros
+  - Si la edad es menor al año, deberá retornar "Los cachorros necesitan pequeñas y frecuentes sesiones de juego"
+  - Si la edad es entre 1 y 7 años, deberá retornar "Los perros a esta edad necesitan caminatas diarias y sesiones de juego"
+  - Si la edad es mayor a 7 años, deberá retornar "Los perros viejos necesitan caminatas más cortas"
+
+* gatos
+  - Si la edad es menor al año, deberá retornar "Los gatitos necesitan frecuentes sesiones de juego"
+  - Si la edad es entre 1 y 7 años, deberá retornar "Los gatos a esta edad necesitan jugar diariamente"
+  - Si la edad es mayor a 7 años, deberá retornar "Los gatos viejos necesitan sesiones de juego más cortas"
+
+* aves
+  - Si la edad es menor al año, deberá retornar "Las aves jóvenes necesitan mucho espacio para volar"
+  - Si la edad es entre 1 y 7 años, deberá retornar "Las aves necesitan jugar diariamente y un lugar para volar"
+  - Si la edad es mayor a 7 años, deberá retornar "Las aves mayores necesitan descansar más, pero siguen ocupando un lugar para volar"
+
+Tendrás inputs y outputs como los siguientes 👇
+
+Ejemplo 1:
+```
+Input: getPetExerciseInfo("perro", 3)
+Output: "Los perros a esta edad necesitan caminatas diarias y sesiones de juego"
+```
+
+Ejemplo 2:
+```
+Input: getPetExerciseInfo("gato", 8)
+Output: "Los gatos viejos necesitan sesiones de juego más cortas"
+```
+
+Ejemplo 3: 
+```
+Input: getPetExerciseInfo("Mamut", 25)
+Output: "Tipo de mascota invalida"
+```
+
+### Temas previos:
+> 1. **Condicional Switch**
+> 2. Condicional IF-ELSE
+
+### [Archivo con respuesta: 4-mascotas_ejercicio.js](4-mascotas_ejercicio.js)
 #### [Volver al Índice :arrow_up:](#tabla-de-contenidos)
