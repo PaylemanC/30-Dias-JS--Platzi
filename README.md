@@ -1,12 +1,12 @@
-# #PlaziChallenge: 30 días de JavaScript 
-Un repositorio con todos los playground del PlatziChallenge en Marzo 2023. Las actividades están asignadas en este README, y los resultados se encuentran individualmente en cada archivo .js.
+# #PlaziChallenge: 30 días de JavaScript :woman_technologist::man_technologist:
+Un repositorio con todos los playground del PlatziChallenge en Marzo 2023. El objetivo es aprender JavaScript partiendo desde los conceptos básicos hasta los más avanzados ¡En 30 días! Las actividades están asignadas en este README, y los resultados se encuentran individualmente en cada archivo .js.
 
 ### Encontrarás por cada ejercicio/playground: 
 1. Nombre y número del playground (puede haber más de uno por día). 
 2. Num del día.
 3. Pedazo de código brindado para iniciar. 
 4. Consigna con pautas para hacer el playground. Ahí mismo también encontrarás un output esperado de ejemplo.
-5. Una serie de conocimientos previos (**!!!** Entender los resaltados en negrita son los que más podrán ayudarte a resolver el ejercicio). Se van apilando a medida pasan los días, y es la secuencia que da Platzi.
+5. Una serie de conocimientos previos (**!!!** Entender los resaltados en negrita son los que más podrán ayudarte a resolver el ejercicio). Se van apilando a medida pasan los días, y es la secuencia que da Platzi; en Internet está toda la documentación disponible (o en el mismo curso de Platzi, en la descripción de este repo).
 6. El nombre del archivo donde encontrarás mi resolución.  
 
 ## [Tabla de Contenidos](#tabla-de-contenidos)
