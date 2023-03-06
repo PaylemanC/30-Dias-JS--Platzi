@@ -43,10 +43,12 @@ Debes obtener los siguientes resultados:
 "boolean"
 ```
 ### Temas previos:
-> 1. **var, let y const**
+> 1. var, let y const
 > 2. IIFE (Immediately Invoked Function Expression)
 > 3. Función expresión:
 > 4. Arrow Function
+> 5. **Tipos de datos numbers, strings, objects, booleanos**
+> 6. **typeof**
 
 ### [Archivo con respuesta: 1-retorna_tipo.js](1-retorna_tipo.js)
 #### [Volver al Índice :arrow_up:](#tabla-de-contenidos)
