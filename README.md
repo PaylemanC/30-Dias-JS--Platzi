@@ -23,6 +23,7 @@ Un repositorio con todos los playground del PlatziChallenge en Marzo 2023. El ob
 * Día 3:
    - [Playground 3: Calcula años bisiestos](#calcula-años-bisiestos)
    - [Playground 4: Ejercicio de mascotas](#ejercicio-de-mascotas)
+   - [Playground 5: Dibuja un triángulo](#dibuja-un-triangulo)
 
 1. ## [Retorna el tipo](#retorna-el-tipo)
 
@@ -255,5 +256,68 @@ Output: "Tipo de mascota invalida"
 > 2. Condicional IF-ELSE
 
 ### [Archivo con respuesta: 4-mascotas_ejercicio.js](4-mascotas_ejercicio.js)
+
+#### [Volver al Índice :arrow_up:](#tabla-de-contenidos)
+
+5. ## [Dibuja un triángulo](#dibuja-un-triangulo)
+
+> ### Día: 3
+
+```sh
+function printTriangle(size, character) {
+  // Tu código aquí 👈
+}
+```
+
+> ### Consigna:
+
+En este desafío, debes dibujar un triángulo isósceles usando bucles.
+
+Recibirás dos parámetros: `size` y `character`, que definen el tamaño y el carácter con el que se debe construir el triángulo, respectivamente. Además, el triángulo debe estar alineado a la derecha, lo que significa que la columna más derecha del triángulo debe estar en el borde derecho de la consola
+
+* **!!!** Recuerda que para hacer el salto de línea debes usar "\n", no olvides removerla de la última parte.
+
+Tendrás inputs y outputs como los siguientes 👇
+
+Ejemplo 1:
+
+```sh
+Input: printTriangle(5, "*")
+Output:
+    *
+   **
+  ***
+ ****
+*****
+```
+
+Ejemplo 2:
+
+```sh
+Input: printTriangle(6, "$")
+Output:
+     $
+    $$
+   $$$
+  $$$$
+ $$$$$
+$$$$$$
+```
+
+### Temas previos:
+
+> 1. **Ciclo FOR**
+> 2. FOR-IN vs FOR-OF diferencias
+> 3. **Ciclo WHILE**
+> 4. Ciclo DO-WHILE
+
+### [Archivo con respuesta: 5-dibuja_triangulo.js](5-dibuja_triangulo.js)
+
+#### [Archivo con respuesta alternativa*: 5-dibuja_triangulo_alt.js](5-dibuja_triangulo_alt.js)
+
+*Uso de:
+
+* Bucle for. 
+* .repeat()
 
 #### [Volver al Índice :arrow_up:](#tabla-de-contenidos)
