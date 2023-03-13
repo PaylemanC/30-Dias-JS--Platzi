@@ -15,12 +15,15 @@ Un repositorio con todos los playground del PlatziChallenge en Marzo 2023. El ob
 ## [Tabla de Contenidos](#tabla-de-contenidos)
 
 * Día 1:
+
    - [Playground 1: Retorna el tipo](#retorna-el-tipo)
 
 * Día 2:
+
    - [Playground 2: Calcula la propina](#calcula-la-propina)
 
 * Día 3:
+
    - [Playground 3: Calcula años bisiestos](#calcula-años-bisiestos)
    - [Playground 4: Ejercicio de mascotas](#ejercicio-de-mascotas)
    - [Playground 5: Dibuja un triángulo](#dibuja-un-triangulo)
@@ -257,6 +260,10 @@ Output: "Tipo de mascota invalida"
 
 ### [Archivo con respuesta: 4-mascotas_ejercicio.js](4-mascotas_ejercicio.js)
 
+#### [Archivo con respuesta alternativa*: 4-mascotas_ejercicio_alt.js](4-mascotas_ejercicio_alt.js)
+
+*Uso de:
+
 #### [Volver al Índice :arrow_up:](#tabla-de-contenidos)
 
 5. ## [Dibuja un triángulo](#dibuja-un-triangulo)
@@ -317,7 +324,7 @@ $$$$$$
 
 *Uso de:
 
-* Bucle for. 
+* Bucle for.
 * .repeat()
 
 #### [Volver al Índice :arrow_up:](#tabla-de-contenidos)
