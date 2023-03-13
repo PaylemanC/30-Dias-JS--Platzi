@@ -264,6 +264,9 @@ Output: "Tipo de mascota invalida"
 
 *Uso de:
 
+* Condicional ternario
+* Arrays
+
 #### [Volver al Índice :arrow_up:](#tabla-de-contenidos)
 
 5. ## [Dibuja un triángulo](#dibuja-un-triangulo)
