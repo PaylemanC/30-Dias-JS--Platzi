@@ -12,6 +12,19 @@ Un repositorio con todos los playground del PlatziChallenge en Marzo 2023. El ob
 6. El nombre del archivo donde encontrarás mi resolución.
 7. Opcional: puede haber una resolución alternativa, con conocimientos más avanzados (mismo nombre pero terminando en _alt en los archivos).
 
+### Checkpoints:
+
+Los checkpoint tiene un grado más alto de dificultad, combinando todo lo anteriormente aprendido en un solo ejercicio. Sus respuestas incoporan, además, material extra no visto en el #PlatziChallenge (aún) a fin de probar herramientas nuevas que faciliten su resolución. 
+
+Incluyen: 
+
+1. Número de Checkpoint.
+2. Título del checkpoint.
+3. Pedazo de código brindado para iniciar. 
+4. Consigna con pautas para hacer el checkpoint. Ahí mismo también encontrarás un output esperado de ejemplo.
+5. Conocimientos recomendados y aplicados mi solución. 
+6. El nombre del archivo donde encontrarás mi resolución.
+
 ## [Tabla de Contenidos](#tabla-de-contenidos)
 
 * Día 1:
@@ -27,6 +40,9 @@ Un repositorio con todos los playground del PlatziChallenge en Marzo 2023. El ob
    - [Playground 3: Calcula años bisiestos](#calcula-años-bisiestos)
    - [Playground 4: Ejercicio de mascotas](#ejercicio-de-mascotas)
    - [Playground 5: Dibuja un triángulo](#dibuja-un-triangulo)
+---
+* [Checkpoint 1](#checkpoint-1)
+---
 
 1. ## [Retorna el tipo](#retorna-el-tipo)
 
