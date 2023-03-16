@@ -4,7 +4,7 @@ Un repositorio con todos los playground del PlatziChallenge en Marzo 2023. El ob
 
 ### Encontrarás por cada ejercicio/playground:
 
-1. Nombre y número del playground (puede haber más de uno por día).
+1. Nombre y número del playground.
 2. Num del día.
 3. Pedazo de código brindado para iniciar.
 4. Consigna con pautas para hacer el playground. Ahí mismo también encontrarás un output esperado de ejemplo.
@@ -12,17 +12,19 @@ Un repositorio con todos los playground del PlatziChallenge en Marzo 2023. El ob
 6. El nombre del archivo donde encontrarás mi resolución.
 7. Opcional: puede haber una resolución alternativa, con conocimientos más avanzados (mismo nombre pero terminando en _alt en los archivos).
 
+⚠ No todos los días tienen un playground, así como puede haber más de un playground por día. Los checkpoint (véase después) también corresponden al playground de un día. 
+
 ### Checkpoints:
 
-Los checkpoint tiene un grado más alto de dificultad, combinando todo lo anteriormente aprendido en un solo ejercicio. Sus respuestas incoporan, además, material extra no visto en el #PlatziChallenge (aún) a fin de probar herramientas nuevas que faciliten su resolución. 
+Los checkpoint tiene un grado más alto de dificultad, combinando todo lo anteriormente aprendido en un solo ejercicio. Sus respuestas incoporan, además, material extra no visto en el #PlatziChallenge (aún) a fin de probar herramientas nuevas que faciliten su resolución.
 
-Incluyen: 
+Incluyen:
 
 1. Número de Checkpoint.
 2. Título del checkpoint.
-3. Pedazo de código brindado para iniciar. 
+3. Pedazo de código brindado para iniciar.
 4. Consigna con pautas para hacer el checkpoint. Ahí mismo también encontrarás un output esperado de ejemplo.
-5. Conocimientos recomendados y aplicados mi solución. 
+5. Conocimientos recomendados y aplicados mi solución.
 6. El nombre del archivo donde encontrarás mi resolución.
 
 ## [Tabla de Contenidos](#tabla-de-contenidos)
@@ -40,8 +42,11 @@ Incluyen:
    - [Playground 3: Calcula años bisiestos](#calcula-años-bisiestos)
    - [Playground 4: Ejercicio de mascotas](#ejercicio-de-mascotas)
    - [Playground 5: Dibuja un triángulo](#dibuja-un-triangulo)
+
 ---
+
 * [Checkpoint 1](#checkpoint-1)
+
 ---
 
 1. ## [Retorna el tipo](#retorna-el-tipo)
@@ -70,6 +75,7 @@ solution(1)
 solution("Dieguillo")
 solution(true)
 
+
 ```
 
 Debes obtener los siguientes resultados:
@@ -78,6 +84,7 @@ Debes obtener los siguientes resultados:
 "number"
 "string"
 "boolean"
+
 
 ```
 
@@ -124,6 +131,7 @@ Ejemplo 1:
 ```sh
 Input: calculateTip(100, 10);
 Output: 10;
+
 
 ```
 
@@ -179,6 +187,7 @@ Ejemplo 2:
 ```sh
 Input: -2024;
 Output: false;
+
 
 ```
 
@@ -267,6 +276,7 @@ Ejemplo 3:
 Input: getPetExerciseInfo("Mamut", 25)
 Output: "Tipo de mascota invalida"
 
+
 ```
 
 ### Temas previos:
@@ -293,6 +303,7 @@ Output: "Tipo de mascota invalida"
 function printTriangle(size, character) {
   // Tu código aquí 👈
 }
+
 ```
 
 > ### Consigna:
@@ -315,6 +326,7 @@ Output:
   ***
  ****
 *****
+
 ```
 
 Ejemplo 2:
@@ -328,6 +340,7 @@ Output:
   $$$$
  $$$$$
 $$$$$$
+
 ```
 
 ### Temas previos:
@@ -356,13 +369,14 @@ $$$$$$
 function findLargestPalindrome(words) {
   // Tu código aquí 👈
 }
+
 ```
 
 > ### Consigna:
 
 En este desafío, debes crear una función que encuentre el palíndromo más largo en una lista de palabras.
 
-Recibirás un único parámetro: un array de palabras. Si no hay ningún palíndromo en la lista, la función debe devolver `null`. Si hay más de un palíndromo con la misma longitud máxima, debes devolver el primer palíndromo encontrado en la lista. 
+Recibirás un único parámetro: un array de palabras. Si no hay ningún palíndromo en la lista, la función debe devolver `null`. Si hay más de un palíndromo con la misma longitud máxima, debes devolver el primer palíndromo encontrado en la lista.
 
 * **!!!** Un palíndromo es una palabra que se puede leer de la misma manera tanto hacia adelante como hacia atrás.
 
@@ -372,6 +386,7 @@ Ejemplo 1:
 Input: findLargestPalindrome(["racecar", "level", "world", "hello"])
 
 Output: "racecar"
+
 ```
 
 Ejemplo 2:
@@ -380,9 +395,10 @@ Ejemplo 2:
 Input: findLargestPalindrome(["Platzi", "javascript", "html", "css"])
 
 Output: null
+
 ```
 
-### Conocimientos recomendados: 
+### Conocimientos recomendados:
 
 > 1. Métodos de manipulación de arrays (.split, .reverse, .join).
 
