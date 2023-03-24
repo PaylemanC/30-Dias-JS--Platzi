@@ -14,7 +14,7 @@ Un repositorio con todos los playground del PlatziChallenge en Marzo 2023. El ob
 
 ⚠ No todos los días tienen un playground, así como puede haber más de un playground por día. Los checkpoint (véase después) también corresponden al playground de un día.
 
-⚠ Quizá sea obvio, pero no está de más la aclaración: NO HAY UNA ÚNICA RESPUESTA & 30 DÍAS PUEDEN TRANSCURRIR EN 60. Si tu código cumple los output de la consigna, es suficiente, las resoluciones varían por lo que no hay un único camino para llegar a Roma. Y recuerda ir a tu ritmo, quizá no alcance 1 día para resolver un ejercicio, sino 2, 3, 5, más días, y eso está bien, no es una carrera contra nadie así que no te preocupes por eso, concéntrate en intentarlo y aprender de lo que estás haciendo. 
+⚠ Quizá sea obvio, pero no está de más la aclaración: NO HAY UNA ÚNICA RESPUESTA & 30 DÍAS PUEDEN TRANSCURRIR EN 60. Si tu código cumple los output de la consigna, es suficiente, las resoluciones varían por lo que no hay un único camino para llegar a Roma. Y recuerda ir a tu ritmo, quizá no alcance 1 día para resolver un ejercicio, sino 2, 3, 5, más días, y eso está bien, no es una carrera contra nadie así que no te preocupes por eso, concéntrate en intentarlo y aprender de lo que estás haciendo.
 
 ### Checkpoints:
 
@@ -44,6 +44,9 @@ Incluyen:
    - [Playground 3: Calcula años bisiestos](#calcula-años-bisiestos)
    - [Playground 4: Ejercicio de mascotas](#ejercicio-de-mascotas)
    - [Playground 5: Dibuja un triángulo](#dibuja-un-triangulo)
+
+* Día 4: 
+   - [Encuentra el michi más famoso](#encuentra-el-michi-mas-famoso)
 
 ---
 
@@ -360,6 +363,77 @@ $$$$$$
 
 * Bucle for.
 * .repeat()
+
+#### [Volver al Índice :arrow_up:](#tabla-de-contenidos)
+
+6. ## [Encuentra el michi más famoso](#encuentra-el-michi-mas-famoso)
+
+> ### Día: 4
+
+```js
+function findFamousCats(cats) {
+  // Escribe tu código aquí 👈
+}
+
+```
+
+> ### Consigna:
+
+En este desafío, debes encontrar al gatito más famoso con base en su número de seguidores.
+
+Recibirás un array de objetos que incluirán las siguientes propiedades:
+
+* `name`: nombre del gatito.
+* `followers`: un array de números, donde cada uno representa los seguidores de cada red social.
+
+Tu tarea es devolver un array con los nombres de los gatos que tienen solo el mayor número de seguidores. Si hay dos o más gatos con el mismo número máximo de seguidores, deberás incluirlos en el array de resultado, manteniendo el orden en el que aparecen en el array de entrada.
+
+Tendrás inputs y outputs como los siguientes 👇
+
+Ejemplo 1:
+
+```sh
+Input: findFamousCats([
+  {
+    name: "Luna",
+    followers: [500, 200, 300]
+  },
+  {
+    name: "Michi",
+    followers: [100, 300]
+  },
+])
+
+Output: ["Luna"]
+```
+
+Ejemplo 2:
+
+```sh
+Input: findFamousCats([
+  {
+    name: "Mimi",
+    followers: [320, 120, 70]
+  },
+  {
+    name: "Milo",
+    followers: [400, 300, 100, 200]
+  },
+  {
+    name: "Gizmo",
+    followers: [250, 750]
+  }
+])
+
+Output: ["Milo", "Gizmo"]
+```
+
+### Temas previos:
+
+> 1. **Arrays y objetos.**
+> 2. Métodos: **push, reduce**, pop, map.
+
+### [Archivo con respuesta: 6-gatitos_famosos.js](6-gatitos_famosos.js)
 
 #### [Volver al Índice :arrow_up:](#tabla-de-contenidos)
 
