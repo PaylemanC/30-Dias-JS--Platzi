@@ -12,7 +12,9 @@ Un repositorio con todos los playground del PlatziChallenge en Marzo 2023. El ob
 6. El nombre del archivo donde encontrarás mi resolución.
 7. Opcional: puede haber una resolución alternativa, con conocimientos más avanzados (mismo nombre pero terminando en _alt en los archivos).
 
-⚠ No todos los días tienen un playground, así como puede haber más de un playground por día. Los checkpoint (véase después) también corresponden al playground de un día. 
+⚠ No todos los días tienen un playground, así como puede haber más de un playground por día. Los checkpoint (véase después) también corresponden al playground de un día.
+
+⚠ Quizá sea obvio, pero no está de más la aclaración: NO HAY UNA ÚNICA RESPUESTA & 30 DÍAS PUEDEN TRANSCURRIR EN 60. Si tu código cumple los output de la consigna, es suficiente, las resoluciones varían por lo que no hay un único camino para llegar a Roma. Y recuerda ir a tu ritmo, quizá no alcance 1 día para resolver un ejercicio, sino 2, 3, 5, más días, y eso está bien, no es una carrera contra nadie así que no te preocupes por eso, concéntrate en intentarlo y aprender de lo que estás haciendo. 
 
 ### Checkpoints:
 
