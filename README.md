@@ -45,8 +45,10 @@ Incluyen:
    - [Playground 4: Ejercicio de mascotas](#ejercicio-de-mascotas)
    - [Playground 5: Dibuja un triángulo](#dibuja-un-triangulo)
 
-* Día 4: 
-   - [Encuentra el michi más famoso](#encuentra-el-michi-mas-famoso)
+* Día 4:
+
+   - [Playground 6: Encuentra el michi más famoso](#encuentra-el-michi-mas-famoso)
+   - [Playground 7: Obtén el promedio de los estudiantes](#obten-el-promedio-de-los-estudiantes)
 
 ---
 
@@ -434,6 +436,84 @@ Output: ["Milo", "Gizmo"]
 > 2. Métodos: **push, reduce**, pop, map.
 
 ### [Archivo con respuesta: 6-gatitos_famosos.js](6-gatitos_famosos.js)
+
+#### [Volver al Índice :arrow_up:](#tabla-de-contenidos)
+
+7. ## [Obtén el promedio de los estudiantes](#obten-el-promedio-de-los-estudiantes)
+
+> ### Día: 4
+
+```js
+function getStudentAverage(students) {
+  // Escribe tu código aquí 👈
+}
+
+```
+
+> ### Consigna
+
+En este desafío, deberás calcular el promedio general de una clase, así como el promedio individual de cada estudiante.
+
+Para ello, se te proporcionará un array de objetos, cada uno de los cuales representará a un estudiante y tendrá las siguientes propiedades:
+
+* `name`: El nombre del estudiante
+* `grades`: Las notas de cada materia del estudiante
+
+A partir de esta información, debes retornar un nuevo objeto que tenga la propiedad classAverage con el promedio de la clase y un array de students con los estudiantes y sus promedios individuales.
+
+Es importante mencionar que los promedios deben ser calculados con precisión y se deben redondear a dos decimales para que los test pasen sin problema alguno. Puedes usar el método `toFixed()` el cual se usa de la siguiente manera 👇
+
+```sh
+const number = 100.32433;
+number.toFixed(2); // "100.32"
+```
+
+* **!!!** 👀 Ten en cuenta que este método regresa el número como un string y se espera que sea de tipo numérico.
+
+Ejemplo:
+
+```sh
+Input: getStudentAverage([
+  {
+    name: "Pedro",
+    grades: [90, 87, 88, 90],
+  },
+  {
+    name: "Jose",
+    grades: [99, 71, 88, 96],
+  },
+  {
+    name: "Maria",
+    grades: [92, 81, 80, 96],
+  },
+])
+
+Output: {
+  classAverage: 88.17,
+  students: [
+    {
+      name: "Pedro",
+      average: 88.75
+    },
+    {
+      name: "Jose",
+      average: 88.5
+    },
+    {
+      name: "Maria",
+      average: 87.25
+    }
+  ]
+}
+```
+
+### Temas previos:
+
+> 1. **Objetos y arrays.**
+> 2. Manipulación de objetos y arrays.
+> 3. toFixed()
+
+### [Archivo con respuesta: 7-promedio_estudiantes.js]( 7-promedio_estudiantes.js)
 
 #### [Volver al Índice :arrow_up:](#tabla-de-contenidos)
 
