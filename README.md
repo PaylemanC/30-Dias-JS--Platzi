@@ -58,6 +58,7 @@ Incluyen:
 
 * Día 8:
    - [Playground 8: Crea una calculadora con clousures](#crea-una-calculadora-con-clousures)
+   - [Playground 9: Crea tu propio método map](#crea-tu-propio-metodo-map)
 
 1. ## [Retorna el tipo](#retorna-el-tipo)
 
@@ -86,6 +87,7 @@ solution("Dieguillo")
 solution(true)
 
 
+
 ```
 
 Debes obtener los siguientes resultados:
@@ -94,6 +96,7 @@ Debes obtener los siguientes resultados:
 "number"
 "string"
 "boolean"
+
 
 
 ```
@@ -141,6 +144,7 @@ Ejemplo 1:
 ```sh
 Input: calculateTip(100, 10);
 Output: 10;
+
 
 
 ```
@@ -197,6 +201,7 @@ Ejemplo 2:
 ```sh
 Input: -2024;
 Output: false;
+
 
 
 ```
@@ -287,6 +292,7 @@ Input: getPetExerciseInfo("Mamut", 25)
 Output: "Tipo de mascota invalida"
 
 
+
 ```
 
 ### Temas previos:
@@ -314,6 +320,7 @@ function printTriangle(size, character) {
   // Tu código aquí 👈
 }
 
+
 ```
 
 > ### Consigna:
@@ -337,6 +344,7 @@ Output:
  ****
 *****
 
+
 ```
 
 Ejemplo 2:
@@ -350,6 +358,7 @@ Output:
   $$$$
  $$$$$
 $$$$$$
+
 
 ```
 
@@ -410,6 +419,7 @@ Input: findFamousCats([
 ])
 
 Output: ["Luna"]
+
 ```
 
 Ejemplo 2:
@@ -431,6 +441,7 @@ Input: findFamousCats([
 ])
 
 Output: ["Milo", "Gizmo"]
+
 ```
 
 ### Temas previos:
@@ -469,6 +480,7 @@ Es importante mencionar que los promedios deben ser calculados con precisión y 
 ```sh
 const number = 100.32433;
 number.toFixed(2); // "100.32"
+
 ```
 
 * **!!!** 👀 Ten en cuenta que este método regresa el número como un string y se espera que sea de tipo numérico.
@@ -508,6 +520,7 @@ Output: {
     }
   ]
 }
+
 ```
 
 ### Temas previos:
@@ -529,6 +542,7 @@ function findLargestPalindrome(words) {
   // Tu código aquí 👈
 }
 
+
 ```
 
 > ### Consigna:
@@ -546,6 +560,7 @@ Input: findLargestPalindrome(["racecar", "level", "world", "hello"])
 
 Output: "racecar"
 
+
 ```
 
 Ejemplo 2:
@@ -554,6 +569,7 @@ Ejemplo 2:
 Input: findLargestPalindrome(["Platzi", "javascript", "html", "css"])
 
 Output: null
+
 
 ```
 
@@ -597,6 +613,7 @@ const calculator = createCalculator()
 calculator.add(10)
 
 Output: 10
+
 ```
 
 Ejemplo 2:
@@ -607,6 +624,7 @@ calculator.add(10)
 calculator.subtract(-10)
 
 Output: 20
+
 ```
 
 Ejemplo 3:
@@ -618,6 +636,7 @@ calculator.subtract(-10)
 calculator.clear()
 
 Output: 0
+
 ```
 
 ### Temas previos:
@@ -626,5 +645,49 @@ Output: 0
 > 2. Programación funcional.
 
 ### [Archivo con respuesta: 8-calculadora.js](8-calculadora.js)
+
+#### [Volver al Índice :arrow_up:](#tabla-de-contenidos)
+
+9. ## [Crea tu propio método map](#crea-tu-propio-metodo-map)
+
+> ### Día: x
+
+```js
+function funcion(valores) {
+  // Escribe tu código aquí 👈
+}
+
+```
+
+> ### Consigna:
+
+En este desafío debes desarrollar una implementación personalizada del método `map` utilizando funciones de orden superior.
+
+Recibirás como parámetros un `array` y una `función` (`func`). El array contendrá un conjunto de elementos (números, objetos, strings, etc.) y la función se utilizará para aplicar una acción sobre cada elemento del array. Tu objetivo es devolver un nuevo array con los resultados de la función tal y como lo haría el método `map`.
+
+Ejemplo 1:
+
+```sh
+Input: myMap([1,2,3,4], (num) => num * 2)
+
+Output: [2,4,6,8]
+```
+
+Ejemplo 2:
+
+```sh
+Input: myMap([
+  {name: "michi", age: 2},
+  {name: "firulais", age: 6}],
+  (pet) => pet.name)
+
+Output: ["michi", "firulais"]
+```
+
+### Temas previos:
+
+> 1. **Higher order functions.**
+
+### [Archivo con respuesta: 9-map.js](9-map.js)
 
 #### [Volver al Índice :arrow_up:](#tabla-de-contenidos)
