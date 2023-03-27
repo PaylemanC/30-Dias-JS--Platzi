@@ -56,6 +56,9 @@ Incluyen:
 
 ---
 
+* Día 8:
+   - [Playground 8: Crea una calculadora con clousures](#crea-una-calculadora-con-clousures)
+
 1. ## [Retorna el tipo](#retorna-el-tipo)
 
 > ### Día: 1
@@ -513,7 +516,7 @@ Output: {
 > 2. Manipulación de objetos y arrays.
 > 3. toFixed()
 
-### [Archivo con respuesta: 7-promedio_estudiantes.js]( 7-promedio_estudiantes.js)
+### [Archivo con respuesta: 7-promedio_estudiantes.js](7-promedio_estudiantes.js)
 
 #### [Volver al Índice :arrow_up:](#tabla-de-contenidos)
 
@@ -559,5 +562,69 @@ Output: null
 > 1. Métodos de manipulación de arrays (.split, .reverse, .join).
 
 ### [Archivo con respuesta: checkpoint-1.js](checkpoint-1.js)
+
+#### [Volver al Índice :arrow_up:](#tabla-de-contenidos)
+
+8. ## [Crea una calculadora con clousures](#crea-una-calculadora-con-clousures)
+
+> ### Día: 8
+
+```js
+function createCalculator() {
+  // Escribe tu código aquí 👈
+}
+
+```
+
+> ### Consigna:
+
+En este desafío tendrás que crear una calculadora mediante el uso de closures.
+
+La calculadora debe contar con los siguientes métodos:
+
+* `add`: recibe un número, lo suma al total y devuelve el resultado
+* `subtract`: recibe un número, lo resta al total y devuelve el resultado
+* `multiply`: recibe un número, lo multiplica al total y devuelve el resultado
+* `divide`: recibe un número, lo divide al total y devuelve el resultado
+* `clear`: reinicia el total a 0 y devuelve el resultado
+* `getTotal`: devuelve el total actual.
+
+Ejemplo 1:
+
+```sh
+Input:
+const calculator = createCalculator()
+calculator.add(10)
+
+Output: 10
+```
+
+Ejemplo 2:
+
+```sh
+const calculator = createCalculator()
+calculator.add(10)
+calculator.subtract(-10)
+
+Output: 20
+```
+
+Ejemplo 3:
+
+```sh
+const calculator = createCalculator()
+calculator.add(10)
+calculator.subtract(-10)
+calculator.clear()
+
+Output: 0
+```
+
+### Temas previos:
+
+> 1. **Clousures & Scope**
+> 2. Programación funcional.
+
+### [Archivo con respuesta: 8-calculadora.js](8-calculadora.js)
 
 #### [Volver al Índice :arrow_up:](#tabla-de-contenidos)
