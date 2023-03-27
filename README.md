@@ -653,7 +653,7 @@ Output: 0
 > ### Día: x
 
 ```js
-function funcion(valores) {
+function myMap(array, func) {
   // Escribe tu código aquí 👈
 }
 
