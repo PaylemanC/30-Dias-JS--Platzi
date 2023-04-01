@@ -1,3 +1,4 @@
+//*Si corres en local, recuerda cambiar: window.setTimeout(...) --> setTimeout(...)
 function sendEmail(email, subject, body) {
     const promise = new Promise((resolve, reject) => {
       if (email && subject && body) {
