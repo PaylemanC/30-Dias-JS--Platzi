@@ -68,6 +68,7 @@ Incluyen:
 
 * Día 11:
    - [Playground 10: Crea una promesa para mandar emails](#crea-una-promesa-para-mandar-emails)
+   - [Playground 11: Evita el callback hell haciendo uso de Promises](#evita-el-callback-hell-haciendo-uso-de-promises)
 
 1. ## [Retorna el tipo](#retorna-el-tipo)
 
@@ -881,5 +882,67 @@ Output:
 > 2. **Promesas.**
 
 ### [Archivo con respuesta: 10-enviar_email.js](10-enviar_email.js)
+
+#### [Volver al Índice :arrow_up:](#tabla-de-contenidos)
+
+11. ## [Evita el callback hell haciendo uso de promises](#evita-el-callback-hell-haciendo-uso-de-promises)
+
+> ### Día: 11
+
+```sh
+function doTask1(callback) {
+  window.setTimeout(() => callback('Task 1'), 300);
+}
+
+function doTask2(callback) {
+  window.setTimeout(() => callback('Task 2'), 300);
+}
+
+function doTask3(callback) {
+  window.setTimeout(() => callback('Task 3'), 300);
+}
+
+function runCode() {
+  const strings = [];
+  return new Promise((resolve) => {
+    doTask1((rta1) => {
+      strings.push(rta1);
+      doTask2((rta2) => {
+        strings.push(rta2);
+        doTask3((rta3) => {
+          strings.push(rta3);
+          resolve(strings);
+        })
+      })
+    })
+  })
+}
+```
+
+En este desafío tienes un código base el cual se aplica una mala práctica de programación que conocemos como el **callback hell** y tu reto es evitarlo usando promesas.
+
+* **!!!** Nota: No uses async/await, ya que este reto se trata de resolverlo mediante promesas con la función `then`.
+
+Para solucionarlo vas a encontrar una función llamada `runCode` que no recibe parámetros de entrada que tiene el código base que tienes que refactorizar, además de las funciones `doTask` que tienes que ejecutar.
+
+Dentro del cuerpo de la función `runCode` debes escribir tu solución y además pasar las funciones `doTask` a promesas.
+
+Ejemplo:
+
+```sh
+runCode()
+.then(response => console.log(response));
+
+Output:
+["Task 1", "Task 2", "Task 3"]
+```
+
+> Si estás en local, no hace falta utilizar window, basta con colocar setTimeout(()).
+
+### Temas previos:
+> 1. **Promises**
+> 2. Callback hell
+
+### [Archivo con respuesta: 11-callbackhell_promesas.js](11-callbackhell_promesas.js)
 
 #### [Volver al Índice :arrow_up:](#tabla-de-contenidos)
