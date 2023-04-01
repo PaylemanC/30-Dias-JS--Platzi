@@ -66,6 +66,9 @@ Incluyen:
 
 ---
 
+* Día 11:
+   - [Playground 10: Crea una promesa para mandar emails](#crea-una-promesa-para-mandar-emails)
+
 1. ## [Retorna el tipo](#retorna-el-tipo)
 
 > ### Día: 1
@@ -794,3 +797,89 @@ planner.filterTasksByTag("shopping")
 > 3. Spread operator.
 
 ### [Archivo con respuesta: checkpoint-2.js](checkpoint-2.js)
+
+10. ## [Crea una promesa para mandar emails](#crea-una-promesa-para-mandar-emails)
+
+> ### Día: 11
+
+```js
+function funcion(valores) {
+  // Escribe tu código aquí 👈
+}
+
+```
+
+> ### Consigna:
+
+En este desafío debes utilizar promesas para enviar un correo electrónico.
+
+La función `sendEmail` recibe tres parámetros: `email`, `subject` y `body`, los cuales son necesarios para enviar un correo. Deberás implementar la lógica necesaria para usar promesas y enviar el correo después de 2 segundos.
+
+En caso de faltar algún dato, deberás lanzar un error con el mensaje indicando que faltan campos para enviar el correo. Recuerda utilizar la siguiente sintaxis:
+
+```sh
+reject(new Error(message));
+```
+
+También recuerda que para usar `setInterval` o `setTimeout` debes usar el namespace de `window` de la siguiente manera para que las pruebas pasen correctamente.*
+
+```sh
+window.setTimeout(() => {
+  // Código aquí
+}, 1000);
+```
+
+> * Si estás en local, no hace falta utilizar window, basta con colocar setTimeout(()).
+
+Ejemplo 1:
+
+```sh
+Input:
+
+sendEmail(
+  "test@mail.com",
+  "Nuevo reto",
+  "Únete a los 30 días de JS"
+)
+.then(result => console.log(result))
+
+
+Output:
+
+// Después de 2 segundos
+
+{
+  email: "test@mail.com"
+  subject: "Nuevo reto",
+  body:  "Únete a los 30 días de JS",
+}
+```
+
+Ejemplo 2:
+
+```sh
+Input:
+
+sendEmail(
+  "test@mail.com",
+  "",
+  "Únete a los 30 días de JS"
+)
+.then(result => console.log(result))
+.catch(error => console.log(error))
+
+Output:
+
+// Después de 2 segundos
+
+"Error: Hacen falta campos para enviar el email"
+```
+
+### Temas previos:
+
+> 1. **Asincronismo.**
+> 2. **Promesas.**
+
+### [Archivo con respuesta: 10-enviar_email.js](10-enviar_email.js)
+
+#### [Volver al Índice :arrow_up:](#tabla-de-contenidos)
