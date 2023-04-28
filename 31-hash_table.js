@@ -53,3 +53,10 @@ class ContactList {
       }
     }
 }
+
+const contactList = new ContactList(10)
+contactList.insert("Mr michi", "123-456-7890")
+contactList.retrieveAll()
+contactList.get("Mr Michi")
+contactList.delete("Mr michi")
+contactList.get("Mr Michi")
