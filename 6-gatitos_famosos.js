@@ -30,7 +30,9 @@ console.log(findFamousCats([
     name: "Michi",
     followers: [100, 300]
   }
-]));
+])); 
+//["Luna"]
+
 
 console.log(findFamousCats([
   {
@@ -46,3 +48,4 @@ console.log(findFamousCats([
     followers: [250, 750]
   }
 ]));
+// ["Milo", "Gizmo"]

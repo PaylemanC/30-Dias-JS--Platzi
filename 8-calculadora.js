@@ -12,13 +12,7 @@ function createCalculator() {
 }
 
 const calculator = createCalculator()
-console.log(calculator.add(10));
-
-const calculator2 = createCalculator()
-console.log(calculator2.add(10));
-console.log(calculator2.subtract(-10));
-
-const calculator3 = createCalculator()
-console.log(calculator3.add(10));
-console.log(calculator3.subtract(-10));
-console.log(calculator3.clear());
+console.log(calculator.add(10)); //10
+console.log(calculator.add(10)); //20
+console.log(calculator.subtract(10)); //10
+console.log(calculator.clear()); //0

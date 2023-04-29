@@ -9,5 +9,5 @@ function findLargestPalindrome(words) {
     return palindrome;
 }
 
-console.log(findLargestPalindrome(["racecar", "level", "world", "hello"]));
-console.log(findLargestPalindrome(["Platzi", "javascript", "html", "css"]));
+console.log(findLargestPalindrome(["racecar", "level", "world", "hello"])); //"racecar"
+console.log(findLargestPalindrome(["Platzi", "javascript", "html", "css"])); //null

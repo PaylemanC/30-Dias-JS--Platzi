@@ -43,4 +43,19 @@ planner.markTaskAsCompleted("Llamar a Juan");
 
 
 console.log(planner.getCompletedTasks());
+/*[{
+    id: 2,
+    name: "Llamar a Juan",
+    completed: true,
+    priority: 3,
+    tags: ["personal"]
+}]*/
+
 console.log(planner.filterTasksByTag("shopping"));
+/*[{
+    id: 1,
+    name: "Comprar leche",
+    completed: false,
+    priority: 3,
+    tags: ["shopping", "home"]
+}]*/

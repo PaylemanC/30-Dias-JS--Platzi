@@ -32,4 +32,21 @@ console.log(getStudentAverage([
       name: "Maria",
       grades: [92, 81, 80, 96],
     }
-]));
+])); 
+/* {
+  classAverage: 88.17,
+  students: [
+    {
+      name: "Pedro",
+      average: 88.75
+    },
+    {
+      name: "Jose",
+      average: 88.5
+    },
+    {
+      name: "Maria",
+      average: 87.25
+    }
+  ]
+}*/

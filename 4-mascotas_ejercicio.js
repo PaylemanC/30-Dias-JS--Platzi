@@ -35,6 +35,6 @@ function getPetExerciseInfo(type, age) {
     }
 }
 
-console.log(getPetExerciseInfo("perro", 3));
-console.log(getPetExerciseInfo("gato", 8));
-console.log(getPetExerciseInfo("Mamut", 25)); 
+console.log(getPetExerciseInfo("perro", 3)); //Los perros a esta edad necesitan caminatas diarias y frecuentes sesiones de juego
+console.log(getPetExerciseInfo("gato", 8)); //Los gatos viejos necesitan sesiones de juego más cortas
+console.log(getPetExerciseInfo("Mamut", 25)); //Tipo de mascota inválida

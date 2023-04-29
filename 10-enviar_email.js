@@ -23,6 +23,12 @@ console.log(
   )
   .then(result => console.log(result))
 )
+// Después de 2 segundos
+/*{
+  email: "test@mail.com"
+  subject: "Nuevo reto",
+  body:  "Únete a los 30 días de JS",
+}*/
 
 console.log(
   sendEmail(
@@ -33,4 +39,5 @@ console.log(
   .then(result => console.log(result))
   .catch(error => console.log(error))
 )
-
+// Después de 2 segundos
+// "Error: Hacen falta campos para enviar el email"

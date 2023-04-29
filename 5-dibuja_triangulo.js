@@ -25,4 +25,15 @@ function printTriangle (size, character) {
 }
 
 printTriangle(5, "*");
+//     *
+//    **
+//   ***
+//  ****
+// *****
 printTriangle(6, "$");
+//      $
+//     $$
+//    $$$
+//   $$$$
+//  $$$$$
+// $$$$$$

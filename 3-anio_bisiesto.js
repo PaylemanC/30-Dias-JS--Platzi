@@ -10,6 +10,6 @@ function isLeapYear(year) {
     }
 }
 
-console.log(isLeapYear(2000));
-console.log(isLeapYear(-2024));
-console.log(isLeapYear(1984.25));
+console.log(isLeapYear(2000)); //true
+console.log(isLeapYear(-2024)); //false
+console.log(isLeapYear(1984.25)); //false

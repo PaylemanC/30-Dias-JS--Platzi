@@ -9,5 +9,16 @@ function printTriangle(size, character) {
     return triangle;
 }
 
-console.log(printTriangle(5, "*"));
-console.log(printTriangle(8, "$"));
+console.log(printTriangle(5, "*")); 
+//     *
+//    **
+//   ***
+//  ****
+// *****
+console.log(printTriangle(8, "$")); 
+//      $
+//     $$
+//    $$$
+//   $$$$
+//  $$$$$
+// $$$$$$
