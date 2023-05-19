@@ -8,10 +8,13 @@ function protectDog(dog) {
     return Object.freeze(clonedDog);
 }
 
-protectDog({
+let protectedDog = protectDog({
     name: "Romeo",
     age: 3,
     owner: { name: "Victor", phoneNumber: "555-555-5555" },
     favoriteFood: ["pollito", "croquetas"],
     activities: ["jugar", "caminar"],
-})
+});
+
+protectedDog.name = "Toro";
+console.log(protectedDog.name); // "Romeo"

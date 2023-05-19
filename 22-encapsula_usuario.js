@@ -37,4 +37,6 @@ const usuario1 = new User("Juan", 20);
 const usuario2 = new User("Maria", 25);
 usuario1.addFriend(usuario2);
 usuario1.sendMessage("Hola Maria!", usuario2);
-console.log(usuario1.showMessages());
+console.log(usuario1.showMessages()); //["Hola Maria!"]
+usuario1.name = "Pepito";
+console.log(usuario1.name); //Pepito

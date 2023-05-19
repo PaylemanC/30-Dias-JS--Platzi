@@ -11,7 +11,7 @@ function arrayModified() {
 }
 
 const array = [1,2,3,4,5,6]
-array.myFilter(num => num % 2 === 0)
+array.myFilter(num => num % 2 === 0) //[2,4,6]
 
 const arr = [
 	{
@@ -27,4 +27,14 @@ const arr = [
 	  age: 30,
 	},
   ];
-array.myFilter((person) => person.age > 18)  
+array.myFilter((person) => person.age > 18) 
+/*[
+  {
+    name: "Pedro",
+    age: 20,
+  },
+  {
+    name: "Maria",
+    age: 30,
+  },
+]*/

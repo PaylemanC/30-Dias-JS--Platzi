@@ -15,13 +15,13 @@ class Product {
 
 class Article extends Product {
     addToCart() {
-        return `Agregando ${this.quantity} unidades del artículo ${this.name} al carrito`
+        return console.log(`Agregando ${this.quantity} unidades del artículo ${this.name} al carrito`);
     }
 }
   
 class Service extends Product {
     addToCart() {
-        return `Agregando el servicio ${this.name} al carrito`
+        return console.log(`Agregando el servicio ${this.name} al carrito`);
     }
 }
   
@@ -53,8 +53,8 @@ const book = new Article("Libro", 100, 2);
 const course = new Service("Curso", 120, 1);
 
 const cart = new Cart();
-cart.addProduct(book);
-cart.addProduct(course);
-cart.calculateTotal();
+cart.addProduct(book); //Agregando 2 unidades del artículo Libro al carrito
+cart.addProduct(course); //Agregando el servicio Curso al carrito
+console.log(cart.calculateTotal()); //320
 cart.deleteProduct(book);
-cart.calculateTotal();
+console.log(cart.calculateTotal()); //120

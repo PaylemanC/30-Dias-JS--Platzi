@@ -32,8 +32,10 @@ class Car {
 }
 
 const toyota = new Car ("Toyota", "Corolla", 2020, 0);
-console.log(toyota.state);
+console.log(toyota.state); //false
 toyota.turnOn();
-console.log(toyota.state);
+console.log(toyota.state); //true
 toyota.drive(100);
-console.log(toyota.mileage);
+console.log(toyota.mileage); //100
+toyota.turnOff();
+toyota.drive(100); //Error: El auto está apagado
