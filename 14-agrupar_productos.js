@@ -22,5 +22,13 @@ const products = [
   { name: "Pants", category: "Clothing", price: 100 },
 ];
 
-groupProducts(products, "Electronics");
-groupProducts(products, "Clothing")
+console.log(groupProducts(products, "Electronics"));
+/*{
+  products: "Smartphone, Laptop",
+  totalPrice: 2000,
+}*/
+console.log(groupProducts(products, "Clothing"));
+/*{
+  products: "Shirt, Pants",
+  totalPrice: 150,
+}*/

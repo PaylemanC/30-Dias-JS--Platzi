@@ -17,5 +17,10 @@ const shoppingList = [
     { name: "oferta manzanas", price: 10, quantity: 3 },
 ]
   
-processShoppingList(shoppingList)
+console.log(processShoppingList(shoppingList)); //89
 console.log(shoppingList) 
+/*[
+    { name: 'pan', price: 40 },
+    { name: 'leche', price: 25 },
+    { name: 'oferta manzanas', price: 24 }
+]*/

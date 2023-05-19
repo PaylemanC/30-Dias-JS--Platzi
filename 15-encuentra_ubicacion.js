@@ -19,6 +19,10 @@ const array = [
   [7, 8, 9],
 ]
 const value = 5;
-searchValue(array, value);
+console.log(searchValue(array, value));
+/*{
+  row: 1,
+  column: 1,
+}*/
 const value2 = 45;
-searchValue(array, value2);
+searchValue(array, value2); //"Valor no encontrado"

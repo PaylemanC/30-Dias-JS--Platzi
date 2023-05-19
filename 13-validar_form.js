@@ -1,7 +1,12 @@
-const formData = {
+const formData1 = {
     name: "Juan",
     lastname: "Perez",
     email: "juan@example.com",
+    password: "123456"
+}
+
+const formData2 = {
+    name: "Juan",
     password: "123456"
 }
   
@@ -27,4 +32,5 @@ function validateForm(formData, registeredUsers) {
     }
 }
 
-validateForm(formData, registeredUsers);
+console.log(validateForm(formData1, registeredUsers)); //"Tu registro fue exitoso Juan Perez"
+validateForm(formData2, registeredUsers); //"Faltan los siguientes campos requeridos: lastname, email"
