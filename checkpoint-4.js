@@ -80,7 +80,21 @@ const flight = new Flight("CDMX", "Guadalajara", "2022-01-01", 5, 1000);
 const passenger = new Passenger("Juan", "Perez", 30);
 const reservation = flight.sellTicket(passenger);
 console.log(passenger.flights);
+/*[
+  {
+    origin: "CDMX",
+    destination: "Guadalajara",
+    date: "2022-01-01",
+    price: 1000,
+  },
+]*/
 console.log(flight.passengers);
+/*[
+  {
+    fullName: "Juan Perez",
+    age: 30,
+  },
+]*/
 
 const economicFlight = new EconomicFlight(
   "New York",
@@ -91,4 +105,4 @@ const economicFlight = new EconomicFlight(
 );
 const passenger2 = new Passenger("Pedro", "Gutierrez", 17);
 const reservation2 = economicFlight.sellTicket(passenger2);
-console.log(reservation2.flight.price)
+console.log(reservation2.flight.price); //160

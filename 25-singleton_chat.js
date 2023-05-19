@@ -37,7 +37,7 @@ class Chat {
 
 const chat1 = new Chat();
 const chat2 = new Chat();
-console.log(chat1 === chat2)
+console.log(chat1 === chat2) //true
 
 const chat = new Chat();
 const user1 = new User("Pepito");
@@ -47,5 +47,5 @@ chat.addUser(user2);
 
 chat.sendMessage("Nunca pares de aprender!");
 
-console.log(user1.messages)
-console.log(user2.messages)
+console.log(user1.messages) //["Nunca pares de aprender!"]
+console.log(user2.messages) //["Nunca pares de aprender!"]
