@@ -46,3 +46,8 @@ newsletter.subscribe(subscriber2);
 newsletter.subscribe(subscriber3);
 
 newsletter.post(article);
+/*
+"El suscriptor pepe@mail.com ha recibido el artículo: 30 días de js"
+"El suscriptor juanito@mail.com ha recibido el artículo: 30 días de js"
+"El suscriptor pedro@mail.com ha recibido el artículo: 30 días de js"
+*/ 

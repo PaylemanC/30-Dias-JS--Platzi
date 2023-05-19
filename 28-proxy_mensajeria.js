@@ -57,15 +57,15 @@ class MessagesProxy {
 
 const user = new User("John");
 user.login();
-console.log(user.isLoggedIn());
+console.log(user.isLoggedIn()); //true
 
 const messages = new Messages();
 const messagesProxy = new MessagesProxy(messages, user);
 user.login();
 messagesProxy.sendMessage("Hola");
-console.log(messagesProxy.getHistory());
+console.log(messagesProxy.getHistory()); //["Hola"]
 
 const user2 = new User("John");
 const messages2 = new Messages();
 const messagesProxy2 = new MessagesProxy(messages2, user2);
-messagesProxy2.sendMessage("Hola");
+messagesProxy2.sendMessage("Hola"); //Error("Usuario no registrado")

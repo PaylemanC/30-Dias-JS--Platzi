@@ -26,12 +26,12 @@ class BasicProduct extends Product {
 
 class WarrantyDecorator extends Product {
   constructor(product) {
-    super();
+    super(product.getPrice());
     this.product = product;
   }
 
   getPrice() {
-    return this.product.price + 20;
+    return this.product.getPrice() + 20;
   }
 
   getDescription() {
@@ -41,12 +41,12 @@ class WarrantyDecorator extends Product {
 
 class ShippingInsuranceDecorator extends Product {
   constructor(product) {
-    super();
+    super(product.getPrice());
     this.product = product;
   }
 
   getPrice() {
-    return this.product.price + 20;
+    return this.product.getPrice() + 20;
   }
 
   getDescription() {
@@ -57,12 +57,14 @@ class ShippingInsuranceDecorator extends Product {
 const basicProduct = new BasicProduct(100, "Camisa de algodón");
 const withWarranty = new WarrantyDecorator(basicProduct);
 const withShippingInsurance = new ShippingInsuranceDecorator(withWarranty);
+console.log(withShippingInsurance.getPrice());
 console.log(withShippingInsurance.getDescription());
 
 const basicProduct2 = new BasicProduct(5000, "Refrigerador");
-const withWarranty2 = new WarrantyDecorator(basicProduct);
-const withShippingInsurance2 = new ShippingInsuranceDecorator(basicProduct);
+const withWarranty2 = new WarrantyDecorator(basicProduct2);
 console.log(withWarranty2.getPrice());
 console.log(withWarranty2.getDescription());
+
+const withShippingInsurance2 = new ShippingInsuranceDecorator(basicProduct2);
 console.log(withShippingInsurance2.getPrice());
 console.log(withShippingInsurance2.getDescription());

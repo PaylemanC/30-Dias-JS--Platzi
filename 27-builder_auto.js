@@ -51,6 +51,12 @@ const car = new CarBuilder()
   .setColor("Red")
   .setPrice(50000)
   .setIsAvailable(false)
-  .build()
-
-console.log(car)
+console.log(car.build());
+/*{
+  year: 2021,
+  model: 'Model X',
+  brand: 'Tesla',
+  color: 'Red',
+  price: 50000,
+  isAvailable: false
+}*/

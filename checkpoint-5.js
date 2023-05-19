@@ -137,3 +137,36 @@ class Authorization {
       }
     }
 }
+
+const taskManager1 = TaskManager.getInstance();
+const taskManager2 = TaskManager.getInstance();
+console.log(taskManager1 === taskManager2); //true
+
+const taskManager = TaskManager.getInstance();
+const mockTask = new Task(1, "Mock task");
+taskManager.addTask(mockTask);
+console.log(taskManager.getTasks());
+/*[
+  Task { id: 1, description: 'Mock task', completed: false, users: [] }
+]*/
+
+const task = new Task('5', 'Pasear al perro')
+const taskDecorator = new TaskDecorator(task, { deadline: '2023-03-31', priority: 'alta' })
+console.log(taskDecorator);
+/*{
+  task: Task {
+    id: '5',
+    description: 'Pasear al perro',
+    completed: false,
+    users: []
+  },
+  deadline: '2023-03-31',
+  priority: 'alta'
+}*/
+
+const authorization = new Authorization();
+const user1 = new User("Juan");
+const user2 = new User("Maria");
+const task2 = new Task('4', 'Comprar pan');
+task2.assignUser(user1);
+authorization.checkAuthorization(user2, task2); //Error("No autorizado")
