@@ -72,9 +72,9 @@ const myArray = new MyArray()
 myArray.push(1);
 myArray.push(2);
 myArray.push(3);
-console.log(myArray.data)
+console.log(myArray.data) //{ 0: 1, 1: 2, 2: 3 }
 
 const myArray2 = new MyArray()
 myArray2.push("Platzinauta");
 myArray2.unshift("Hola!");
-console.log(myArray2.data);
+console.log(myArray2.data); //{ 0: "Hola!", 1: "Platzinauta" }

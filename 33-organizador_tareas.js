@@ -16,10 +16,20 @@ function taskManager() {
     return { addTask, printTasks }
 }
 
-const myTaskManager = taskManager()
-addTask("Comprar leche", ["compras", "urgente"]);
-addTask("Sacar al perro", ["mascotas"]);
-addTask("Hacer ejercicio", ["salud"]);
-addTask("Comprar leche", ["lácteos"]);
-
-printTasks();
+const myTaskManager = taskManager(); 
+myTaskManager.addTask("Comprar leche", ["compras", "urgente"]);
+myTaskManager.addTask("Sacar al perro", ["mascotas"]);
+myTaskManager.addTask("Hacer ejercicio", ["salud"]);
+console.log(myTaskManager.printTasks()); 
+/*Map(3) {
+  'comprar leche' => Set(2) { 'compras', 'urgente' },
+  'sacar al perro' => Set(1) { 'mascotas' },
+  'hacer ejercicio' => Set(1) { 'salud' }
+}*/
+myTaskManager.addTask("Comprar leche", ["lácteos"]);
+console.log(myTaskManager.printTasks());
+/*Map(3) {
+  'comprar leche' => Set(3) { 'compras', 'urgente', 'lácteos' },
+  'sacar al perro' => Set(1) { 'mascotas' },
+  'hacer ejercicio' => Set(1) { 'salud' }
+}*/

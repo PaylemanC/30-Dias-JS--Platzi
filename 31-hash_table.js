@@ -54,9 +54,9 @@ class ContactList {
     }
 }
 
-const contactList = new ContactList(10)
-contactList.insert("Mr michi", "123-456-7890")
-contactList.retrieveAll()
-contactList.get("Mr Michi")
-contactList.delete("Mr michi")
-contactList.get("Mr Michi")
+const contactList = new ContactList(10);
+contactList.insert("Mr michi", "123-456-7890");
+console.log(contactList.retrieveAll()); //[["Mr michi", "123-456-7890"]]
+console.log(contactList.get("Mr michi")); //"123-456-7890"
+contactList.delete("Mr michi");
+console.log(contactList.get("Mr michi")); //undefined
