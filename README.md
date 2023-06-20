@@ -28,28 +28,31 @@ Este repositorio contiene todas las soluciones que he desarrollado para los play
         <td><a href="solutions/2-calcula_propina.js" target="_blank">2-calcula_propina.js</a></td>
     </tr>
     <tr>
-        <td rowspan="3" align="center">3</td>
+    <td rowspan="5">3</td>
         <td>3. Calcula años bisiestos</td>
         <td>Crear lógica de una función para determinar si un año es bisiesto o no.</td>
         <td>Condicional if-else</td>
         <td><a href="solutions/3-anio_bisiesto.js" target="_blank">3-anio_bisiesto.js</a></td>
     </tr>
     <tr>
-        <td>4. Ejercicio de mascotas</td>
-        <td>Retornar información específica de cuánto ejercicio necesita hacer las mascotas perro, gato y ave, de acuerdo a su edad.</td>
-        <td>Condicional Switch / Condicional if-else / condicional ternario</td>
-        <td>
-            <a href="solutions/4-mascotas_ejercicio.js" target="_blank">4-mascotas_ejercicio.js</a>
-            ---- Solución alternativa: <a href="solutions/4-mascotas_ejercicio_alt.js" target="_blank">4-mascotas_ejercicio_alt.js</a>
-        </td>
+        <td rowspan="2">4. Ejercicio de mascotas</td>
+        <td rowspan="2">Retornar información específica de cuánto ejercicio necesita hacer las mascotas perro, gato y ave, de acuerdo a su edad.</td>
+        <td rowspan="2">Condicional Switch / Condicional if-else / condicional ternario</td>
+        <td><a href="solutions/4-mascotas_ejercicio.js" target="_blank">4-mascotas_ejercicio.js</a></td>
     </tr>
     <tr>
-        <td>5. Dibuja un triángulo</td>
-        <td>Dibujar un triángulo isósceles alineado a la derecha usando bucles.</td>
-        <td>Ciclo For / for-in y for-of / ciclo while / ciclo do-while / .repeat() </td>
-        <td><a href="solutions/5-dibuja_triangulo.js" target="_blank">5-dibuja_triangulo.js</a>
-        ---- Solución alternativa: <a href="solutions/5-dibuja_triangulo_alt.js" target="_blank">5-dibuja_triangulo_alt.js</a></td>
+        <td>Solución alternativa: <a href="solutions/4-mascotas_ejercicio_alt.js" target="_blank">4-mascotas_ejercicio_alt.js</td>
     </tr>
+    <tr>
+        <td rowspan="2">5. Dibuja un triángulo</td>
+        <td rowspan="2">Dibujar un triángulo isósceles alineado a la derecha usando bucles.</td>
+        <td rowspan="2">Ciclo For / for-in y for-of / ciclo while / ciclo do-while / .repeat()</td>
+        <td><a href="solutions/5-dibuja_triangulo.js" target="_blank">5-dibuja_triangulo.js</a></td>
+    </tr>
+    <tr>
+        <td>Solución alternativa: <a href="solutions/5-dibuja_triangulo_alt.js" target="_blank">5-dibuja_triangulo_alt.js</a></td>
+    </tr>
+    <tr>
     <tr>
         <td rowspan="2" align="center">4</td>
         <td>6. Encuentra el michi más famoso</td>
