@@ -15,49 +15,53 @@ Este repositorio contiene todas las soluciones que he desarrollado para los play
     <tbody>
     <tr>
         <td align="center">1</td>
-        <td>1. </td>
-        <td></td>
-        <td></td>
-        <td></td>
+        <td>1. Retorna el tipo</td>
+        <td>Encontrar el tipo de dato del parámetro "valor" de una function "solution".</td>
+        <td>Variables y Funciones / Tipos de datos numbers, strings, object, booleanos</td>
+        <td><a href="solutions/1-retorna_tipo.js" target="_blank">1-retorna_tipo.js</a></td>
     </tr>
     <tr>
         <td align="center">2</td>
-        <td>2. </td>
-        <td></td>
-        <td></td>
-        <td></td>
+        <td>2. Calcula la propina</td>
+        <td>Calcular la propina que deben dejar los clientes de un restaurante de acuerdo a su consumo.</td>
+        <td>Operadores aritméticos, lógicos, de asignación y comparación.</td>
+        <td><a href="solutions/2-calcula_propina.js" target="_blank">2-calcula_propina.js</a></td>
     </tr>
     <tr>
         <td rowspan="3" align="center">3</td>
-        <td>3.</td>
-        <td></td>
-        <td></td>
-        <td></td>
+        <td>3. Calcula años bisiestos</td>
+        <td>Crear lógica de una función para determinar si un año es bisiesto o no.</td>
+        <td>Condicional if-else</td>
+        <td><a href="solutions/3-anio_bisiesto.js" target="_blank">3-anio_bisiesto.js</a></td>
     </tr>
     <tr>
-        <td >4.</td>
-        <td></td>
-        <td></td>
-        <td></td>
+        <td>4. Ejercicio de mascotas</td>
+        <td>Retornar información específica de cuánto ejercicio necesita hacer las mascotas perro, gato y ave, de acuerdo a su edad.</td>
+        <td>Condicional Switch / Condicional if-else / condicional ternario</td>
+        <td>
+            <a href="solutions/4-mascotas_ejercicio.js" target="_blank">4-mascotas_ejercicio.js</a>
+            ---- Solución alternativa: <a href="solutions/4-mascotas_ejercicio_alt.js" target="_blank">4-mascotas_ejercicio_alt.js</a>
+        </td>
     </tr>
     <tr>
-        <td>5.</td>
-        <td></td>
-        <td></td>
-        <td></td>
+        <td>5. Dibuja un triángulo</td>
+        <td>Dibujar un triángulo isósceles alineado a la derecha usando bucles.</td>
+        <td>Ciclo For / for-in y for-of / ciclo while / ciclo do-while / .repeat() </td>
+        <td><a href="solutions/5-dibuja_triangulo.js" target="_blank">5-dibuja_triangulo.js</a>
+        ---- Solución alternativa: <a href="solutions/5-dibuja_triangulo_alt.js" target="_blank">5-dibuja_triangulo_alt.js</a></td>
     </tr>
     <tr>
         <td rowspan="2" align="center">4</td>
-        <td>6.</td>
-        <td></td>
-        <td></td>
-        <td></td>
+        <td>6. Encuentra el michi más famoso</td>
+        <td>Filtrar de un array de objetos con nombres de gatos y followers en social media, los gatos con el mayor número de seguidores y devolverlos en forma de array.</td>
+        <td>Arrays y objetos / Métodos push, reduce, pop, map.</td>
+        <td><a href="solutions/6-gatitos_famosos.js" target="_blank">6-gatitos_famosos.js</a></td>
     </tr>
     <tr>
-        <td>7.</td>
-        <td></td>
-        <td></td>
-        <td></td>
+        <td>7. Obtén el promedio de los estudiantes</td>
+        <td>Calcular el promedio general de una clase y el promedio individual de cada estudiante a través de un array de estudiantes con su nombre y notas.</td>
+        <td>Manipulación de objetos y arrays / toFixed()</td>
+        <td><a href="solutions/7-promedio_estudiantes.js" target="_blank">7-promedio_estudiantes.js</a></td>
     </tr>
     <tr>
         <td align="center">5</td>
