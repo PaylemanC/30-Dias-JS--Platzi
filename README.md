@@ -68,23 +68,23 @@ Este repositorio contiene todas las soluciones que he desarrollado para los play
     </tr>
     <tr>
         <td align="center">5</td>
-        <td>Checkpoint 1:</td>
-        <td></td>
-        <td></td>
-        <td></td>
+        <td>Checkpoint 1: Encuentra el mayor palíndromo</td>
+        <td>Encontrar el palíndromo más largo de un array de palabras. (una palabra que se lee de la misma forma tanto hacia adelante como hacia atrás)</td>
+        <td>Métodos de manipulación de array, .split, .reverse, .join</td>
+        <td><a href="solutions/chekpoints/checkpoint-1.js" target="_blank">checkpoint-1.js</a></td> 
     </tr>
     <tr>
         <td align="center">6</td>
         <td>Teoría</td>
         <td>-</td>
-        <td></td>
+        <td>Reasignación y Redeclaración, "use strict"</td>
         <td>-</td>
     </tr>
     <tr>
         <td align="center">7</td>
         <td>Teoría</td>
         <td>-</td>
-        <td></td>
+        <td>Debugging con try-catch y debugger; / Programación funcional</td>
         <td>-</td>
     </tr>
     <tr>
