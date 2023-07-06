@@ -89,30 +89,30 @@ Este repositorio contiene todas las soluciones que he desarrollado para los play
     </tr>
     <tr>
         <td rowspan="2" align="center">8</td>
-        <td>8.</td>
-        <td></td>
-        <td></td>
-        <td></td>
+        <td>8. Crea una calculadora con closures</td>
+        <td>Crea una calculadora con los métodos add (suma), subtract(resta), multiply (multiplicación), divide (división), clear (reinicia a 0) y getTotal (devuelve el total actual). </td>
+        <td>Clousures & Scope, programación funcional</td>
+        <td><a href="solutions/8-calculadora.js" target="_blank">8-calculadora.js</a></td>
     </tr>
     <tr>
-        <td>9.</td>
-        <td></td>
-        <td></td>
-        <td></td>
+        <td>9. Crea tu propio método map</td>
+        <td>Desarrolla una implementación personalizada del método map utilizando funciones de orden superior.</td>
+        <td>Higher order functions</td>
+        <td><a href="solutions/9-map.js" target="_blank">9-map.js</a></td>
     </tr>
     <tr>
         <td align="center">9</td>
         <td>Teoría</td>
-        <td></td>
-        <td></td>
-        <td></td>
+        <td>-</td>
+        <td>ECMAScript y TC39</td>
+        <td>-</td>
     </tr>
     <tr>
         <td align="center">10</td>
-        <td>Checkpoint 2: </td>
-        <td></td>
-        <td></td>
-        <td></td>
+        <td>Checkpoint 2: Crea un planificador de tareas</td>
+        <td>Que permita mostrar un registro, agregar, eliminar y marcar completas las tareas, con una función closure createTaskPlanner. Métodos: addTask(task), removeTask(value), getTasks(), getPendingTasks(), getCompletedTasks(), markTaskAsCompleted(value), getSortedTasksByPriority(), filterTaskByTag(), updateTask(taskId, updates).</td>
+        <td>Closures y Scope, métodos de manipulación de arrays: push, findIndex, filter, etc., spread operator</td>
+        <td><a href="solutions/chekpoints/checkpoint-2.js" target="_blank">checkpoint-2.js</a></td>
     </tr>
     <tr>
         <td rowspan="3" align="center">11</td>
