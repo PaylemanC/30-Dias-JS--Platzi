@@ -135,7 +135,7 @@ Este repositorio contiene todas las soluciones que he desarrollado para los play
     </tr>
     <tr>
         <td align="center">12</td>
-        <td>13. Válida un formulario de registro de usuario</td>
+        <td>13. Valida un formulario de registro de usuario</td>
         <td>Tomando en cuenta que todos los campos estén completos y que el email no exista ya en la lista de usuarios registrados; si todo está correcto, agrega al usuario con todos sus datos excepto contraseña y retorna un mensaje de registro exitoso con el nombre y apellido.</td>
         <td>Arrays y métodos como push, filter, some, map, find, join, etc.</td>
         <td><a href="solutions/13-validar_form.js" target="_blank">13-validar_form.js</a></td>
@@ -168,56 +168,56 @@ Este repositorio contiene todas las soluciones que he desarrollado para los play
     </tr>
     <tr>
         <td align="center">15</td>
-        <td>Checkpoint 3:</td>
-        <td></td>
-        <td></td>
-        <td></td>
+        <td>Checkpoint 3: Sistema de reservaciones de un hotel</td>
+        <td>Utiliza closures para un crear administrador de habitaciones de un hotel. Funciones: searchReservation(id), getSortReservations(), addReservation(reservation), removeReservation(id), getReservations(), getAvailableRooms(checkIn, checkOut). Formato de reservaciones: { id, name, checkIn, checkOut, roomNumber}</td>
+        <td>Closures, manipulación de array y objetos</td>
+        <td><a href="solutions/chekpoints/checkpoint-3.js" target="_blank">checkpoint-3.js</a></td>
     </tr>
     <tr>
         <td align="center">16</td>
-        <td>18.</td>
-        <td></td>
-        <td></td>
-        <td></td>
+        <td>18. Congela el objeto recursivamente</td>
+        <td>Crea una copia congelada de un objeto-perro para evitar cambios en sus propiedades (incluyendo objetos anidados).</td>
+        <td>Programación Orientada a Objetos, o Object.assign y Object.freeze, objetos literales.</td>
+        <td><a href="solutions/18-congela_objeto.js" target="_blank">18-congela_objeto.js</a></td>
     </tr>
     <tr>
         <td rowspan="2" align="center">17</td>
-        <td>19.</td>
-        <td></td>
-        <td></td>
-        <td></td>
+        <td>19. Modifica el prototype de los arrays</td>
+        <td>Crea tu propia implementación de filter para el prototype de arrays.</td>
+        <td>Prototipos en JavaScript, Array.prototype, callbacks, filter </td>
+        <td><a href="solutions/19-modifica_array_prototype.js" target="_blank">19-modifica_array_prototype.js</a></td>
     </tr>
     <tr>
-        <td>20.</td>
-        <td></td>
-        <td></td>
-        <td></td>
+        <td>20. Crea un auto usando clases</td>
+        <td>Con los atributos brand, model, year, mileage, y state (apagado/encendido) y los métodos turnOn(), turnOff() y drive(kilometers).</td>
+        <td>Programación Orientada a Objetos, atributos y métodos de clase</td>
+        <td><a href="solutions/20-auto.js" target="_blank">20-auto.js</a></td>
     </tr>
     <tr>
         <td rowspan="2" align="center">18</td>
-        <td>21.</td>
-        <td></td>
-        <td></td>
-        <td></td>
+        <td>21. Sistema de carrito de compras</td>
+        <td>Creando clases Article y Service hijas de Product, Article implementará un addToCart() con nombre y cantidad de artículos, y Service el mismo pero solo con nombre. Finalmente una clase Cart implementará métodos addProduct(product), deleteProduct(product), calculateTotal(), getProducts()</td>
+        <td>POO, herencia, abstracción</td>
+        <td><a href="solutions/21-carrito_compras.js" target="_blank">21-carrito_compras.js</a></td>
     </tr>
     <tr>
-        <td>22.</td>
-        <td></td>
-        <td></td>
-        <td></td>
+        <td>22. Encapsula datos de los usuarios</td>
+        <td>Protege los datos privados de una clase Usuario (name, age, friends, messages), con métodos públicos addFriend(friend), sendMessage(message, friend), showMessage. Incluye getters y setters de name y age</td>
+        <td>POO, encapsulamiento, getters y setters</td>
+        <td><a href="solutions/22-encapsula_usuario.js" target="_blank">22-encapsula_usuario.js</a></td>
     </tr>
     <tr>
         <td rowspan="2" align="center">19</td>
-        <td>23.</td>
-        <td></td>
-        <td></td>
-        <td></td>
+        <td>23. Jerarquía de animales</td>
+        <td>Crea una jerarquía con las clases Animal (name, age, species, getInfo()), luego Mammal (hasFur(), getInfo()) y luego Dog (breed, getInfo(), bark()). </td>
+        <td>POO, herencia</td>
+        <td><a href="solutions/23-jerarquia_animales.js" target="_blank">23-jerarquia_animales.js</a></td>
     </tr>
     <tr>
-        <td>24.</td>
-        <td></td>
-        <td></td>
-        <td></td>
+        <td>24. Sistema de pagos</td>
+        <td>Implementa un sistema de pagos utilizando polimorfismo, con clases Pay (makePay(quantity)), PayPal (makePlay + platform e email), Card (nro de tarjeta 16 dígitos + lastCardNumbers) y Cash. Añade función processPay que recibe un método de pago y cantidad llamando a makePay.</td>
+        <td>POO, polimorfismo</td>
+        <td><a href="solutions/24-sistema_pagos.js" target="_blank">24-sistema_pagos.js</a></td>
     </tr>
     <tr>
         <td align="center">20</td>
