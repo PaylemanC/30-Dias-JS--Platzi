@@ -221,30 +221,30 @@ Este repositorio contiene todas las soluciones que he desarrollado para los play
     </tr>
     <tr>
         <td align="center">20</td>
-        <td>Checkpoint 4:</td>
-        <td></td>
-        <td></td>
-        <td></td>
+        <td>Checkpoint 4: Agenda de vuelos</td>
+        <td>Crea un sistema de reservaciones de vuelos con clases: Passenger (name, lastName, age y array de flights), Reservation (con un objeto Flight y Passenger y método reservationDetails()), y Flight (origin, destination, date, capacity, price, y array passengers, y método sellTicket(passenger) con validación de vacantes) con sus subclases PremiumFlight (+ propiedad que suma costo adicional al precio) y Economic Flight (descuento 20% para -18 o +65 años)</td>
+        <td>Programación Orientada a Objetos: polimorfismo, abstracción, herencia, encapsulamiento.</td>
+        <td><a href="solutions/chekpoints/checkpoint-4.js" target="_blank">checkpoint-4.js</a></td>
     </tr>
     <tr>
         <td align="center">21</td>
-        <td>25.</td>
-        <td></td>
-        <td></td>
-        <td></td>
+        <td>25. Implementa Singleton en un chat</td>
+        <td>Aplica Singleton en una clase  Chat con los métodos sendMessage(message), addUser(user), removeUser(name).</td>
+        <td>Patrones de diseño de software (teoría), patrón Singleton</td>
+        <td><a href="solutions/25-singleton_chat.js" target="_blank">25-singleton_chat.js</a></td>
     </tr>
     <tr>
         <td rowspan="2" align="center">22</td>
-        <td>26.</td>
-        <td></td>
-        <td></td>
-        <td></td>
+        <td>26. Personaliza productos de una tienda</td>
+        <td>Usa el patrón decorator para personalizar la compra de un Product (price y descripción) con las clases BasicProduct (+ retorno nombre con getDescription()) , WarrantyDecorator (+ 20$ al precio y string “con garantía” en la descripción), y ShippingInsuranceDecorator (20$ al precio y string “con seguro de envío” en la descripción).</td>
+        <td>Patrones de diseño de software (teoría), patrón Decorator</td>
+        <td><a href="solutions/26-decorator_personalizar_producto.js" target="_blank">26-decorator_personalizar_producto.js</a></td>
     </tr>
     <tr>
-        <td>27.</td>
-        <td></td>
-        <td></td>
-        <td></td>
+        <td>27. Construye un auto usando Builder pattern</td>
+        <td>Mejorando la legibilidad de su creación al tener múltiples atributos.</td>
+        <td>Patrones de diseño de software (teoría), Builder Pattern</td>
+        <td><a href="solutions/27-builder_auto.js" target="_blank">27-builder_auto.js</a></td>
     </tr>
     <tr>
         <td rowspan="2" align="center">23</td>
